@@ -176,8 +176,6 @@ function UserForm() {
                   <div className={styles.type_section}>
                     <Field
                       type="text"
-                      id="test_type"
-                      name="test_type"
                       className="form-control"
                       value={testType}
                       onChange={(e) => setTestType(e.target.value)}
